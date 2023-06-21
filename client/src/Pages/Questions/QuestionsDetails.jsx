@@ -82,7 +82,7 @@ const QuestionsDetails = () => {
    const Navigate = useNavigate()
    const dispatch = useDispatch()
    const location =useLocation()
-   const url = 'http://localhost:3000/'
+   const url = 'https://stack-overflow-qfdp.onrender.com'
 
 
    const User = useSelector((state) => state.currentUserReducer)
