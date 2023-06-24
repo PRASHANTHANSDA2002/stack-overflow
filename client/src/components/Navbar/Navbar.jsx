@@ -43,8 +43,8 @@ const Navbar = () => {
           <Link to="/" className="nav-item nav-btn res-nav">
             About
           </Link>
-          <Link to="/" className="nav-item nav-btn res-nav">
-            Products
+          <Link to="/Plans" className="nav-item nav-btn res-nav">
+            Plans
           </Link>
           <Link to="/" className="nav-item nav-btn res-nav">
             For Teams
