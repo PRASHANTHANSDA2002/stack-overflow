@@ -46,9 +46,9 @@ const Navbar = () => {
           <Link to="/Plans" className="nav-item nav-btn res-nav">
             Plans
           </Link>
-          <Link to="/" className="nav-item nav-btn res-nav">
-            For Teams
-          </Link>
+          <a href="https://stackoverflowclonebyprashant.netlify.app/" className="nav-item nav-btn res-nav">
+            Community
+          </a>
           <form>
             <input type="text" placeholder="Search..." />
             <img src={search} alt="search" width="18" className="search-icon" />
