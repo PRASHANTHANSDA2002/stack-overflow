@@ -15,7 +15,7 @@ function Chatbot() {
     e.preventDefault();
     setLoading(true);
     axios
-      .post("http://localhost:5000/chat", { prompt })
+      .post("https://stack-overflow-qfdp.onrender.com/chat", { prompt })
       .then((res) => {
         setResponse(res.data);
         setLoading(false);
