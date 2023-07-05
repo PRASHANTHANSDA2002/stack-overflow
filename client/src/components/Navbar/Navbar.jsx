@@ -40,11 +40,11 @@ const Navbar = () => {
           <Link to="/" className="nav-item nav-logo">
             <img src={logo} alt="logo" />
           </Link>
-          <Link to="/" className="nav-item nav-btn res-nav">
-            About
-          </Link>
           <Link to="/Plans" className="nav-item nav-btn res-nav">
             Plans
+          </Link>
+          <Link to="/Otp" className="nav-item nav-btn res-nav">
+            Chatbot
           </Link>
           <a href="https://stackoverflowclonebyprashant.netlify.app/" className="nav-item nav-btn res-nav">
             Community

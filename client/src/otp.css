@@ -1,0 +1,153 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .otppage{
+    background-color: #f8c66e;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+  }
+  .inner{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 4;
+    
+    align-items: center;
+  }
+  .tex{
+    text-align: center;
+    line-height:normal;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+  
+    
+  
+  }
+  
+  .yodo{
+  background-color: aliceblue;  
+  color: #efb248;
+  width: fit-content;
+  text-align: center;
+  padding: 4%;
+  border-radius: 60px;
+  
+  }
+  .zin{
+    font: bold;
+    font-size:x-large;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 5%;
+  }
+  .opt-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2;
+    padding: 5%;
+  }
+  
+  .opt-container input{
+    margin: 0%;
+    flex: 1;
+    padding: 5;
+    outline: none;
+  }
+  .verifybutton{
+    color:rgb(0, 0, 0);
+    width:100%;
+    background-color: #6feafb;
+    justify-content: center;
+    padding: 5%;
+    gap: 1;
+    display: flex;
+    align-items: center;
+    border-radius: 11px;
+  }
+  
+  /* .ui:hover {
+      animation: spin 1s linear infinite;
+      margin-top: 1;
+    }
+    
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    } */
+  
+  .ui {
+   
+  animation: spin 1s linear infinite; 
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  
+  .form-control{
+    padding: 7%;
+    display: flex;
+    width: 100;
+    justify-content: center;
+    align-items: center;
+  }
+  .phonecont{
+    margin-left: 18%;
+  margin-bottom: 5%;
+  }
+  .klo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    font-size: xx-large;
+  }
