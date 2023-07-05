@@ -79,7 +79,7 @@ function onSignup(){
     < Toaster toastOptions={{duration: 4000}}/>
     <div id="recaptcha-container"> </div>
    {
-   user ? (<h2 className="klo">you are now verified , <Link to= '/Chatbot'> Click</Link> here to continue </h2> ) : 
+   !user ? (<h2 className="klo">you are now verified , <Link to= '/Chatbot'> Click</Link> here to continue </h2> ) : 
    
    ( <div className="inner">
       <h1 className="tex">
