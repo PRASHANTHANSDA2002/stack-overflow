@@ -80,7 +80,7 @@ function onSignup(){
     <div id="recaptcha-container"> </div>
    {
    user ? (<h2 className="klo"><span className="lop"> Hurray!! You are now verified .</span> <br />
-  <a href="stackoverflwclonebyprashant.https://stackoverflwclonebyprashant.netlify.app/"> Click</a> here to continue. 
+  <a href="https://stackoverflwclonebyprashant.netlify.app/"> Click</a> here to continue. 
 </h2> ) : 
    
    ( <div className="inner">
