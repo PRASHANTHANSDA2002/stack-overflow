@@ -104,8 +104,39 @@
     background-color: #e7f8fe;
     cursor: pointer;
   }
+  .child2{
+    text-align: left;
+  }
   
+  .bars{
+    width: 25px;
+    display: none;
+    margin-left: -20%;
+  }
+
   .nav-links:hover {
     background-color: #d3e4eb;
   }
+  .question-details-container{
+    text-align: left;
+    margin-left: 4%;
+  }
+  .question-details-page {
+    text-align: left;
+  }
   
+  @media screen and (max-width: 800px) {
+    .search-icon ,.lo , .chatbott ,.sear ,.navbar-2 , .loginbut , .left-sidebar{
+      display: none;
+    }
+
+    .bars{
+      display: block;
+      margin-left: -15%;
+    }
+
+    .nav-logo{
+      margin-left: -10%;
+    }
+    
+  } 

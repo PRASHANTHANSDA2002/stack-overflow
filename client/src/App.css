@@ -12,3 +12,9 @@
     box-sizing: border-box;
     margin-right:7%;
   }
+
+  @media screen and (max-width: 800px) {
+    .home-container-2{
+      width: 100%;
+    }    
+  } 

@@ -1,29 +1,30 @@
 .cardcont{
     display: flex;
-    background-color: bisque;
-    align-content: center;
-    justify-content: center;
-   
+    background-color: rgb(247, 225, 198);
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 
 }
 .texty{
-  
-    padding: 10%;
-    font-size: 300%;
+    margin-top: 5%;
+    padding: 5%;
+    font-size: 200%;
     text-align: center;
-    padding-bottom: 2%;
+    padding-bottom: 4%;
     font-weight: 600;
-    background-color: #f7c5a0;
+    background-color: #fad4b8;
 }
 
-.plans{
 
-    display: inline-block;
+.plans{
     margin-top: 5%;
     align-items: center;
     margin-bottom: 10%;
     padding-left: 5%;
     width: 33.33%;
+	justify-content: center;
 }
 .button {
 	box-shadow: -4px 2px 50px -1px #f0f7fa;
@@ -40,7 +41,8 @@
 	padding:6px 59px;
 	text-decoration:none;
 	text-shadow:0px 1px 42px #5b6178;
-    margin-left: 12%;
+
+
 }
 .button:hover {
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
@@ -66,7 +68,7 @@
 	padding:6px 59px;
 	text-decoration:none;
 	text-shadow:0px 1px 42px #5b6178;
-    margin-left: 15%;
+    
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
@@ -76,3 +78,48 @@
 	position:relative;
 	top:1px;
 }
+.up{
+	border-radius: 15px;
+}
+
+@media screen and (max-width: 1020px) {
+    .texty {
+      font-size: larger;
+	  font-weight: 500;
+	  font-size: xx-large;
+	  margin-top: 5%;
+    }
+	.plans{
+		width: fit-content;
+		
+	}
+	.up{
+		max-width: 60%;
+	}
+	.button{
+		width: 60%;
+		height: 30px;
+		font-size: 10px;
+		text-align:center;
+		justify-content: left;
+		text-indent: 0%;
+		
+		
+	}
+	.myButton{
+		width: 60%;
+		height: 30px;
+		font-size: 10px;
+		text-align:center;
+		justify-content: left;
+		
+	}
+	.plans{
+		display: block;
+		margin-top: 0%;
+	}
+	.cardcont{
+		display: block;
+		margin-top: 0%;
+	}
+  } 

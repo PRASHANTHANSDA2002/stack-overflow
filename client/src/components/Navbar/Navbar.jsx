@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import decode from "jwt-decode";
-
+import bars from "../../assets/bars-solid.svg"
 import logo from "../../assets/logo.png";
 import search from "../../assets/search-solid.svg";
 import Avatar from "../../components/Avatar/Avatar";
@@ -37,26 +37,30 @@ const Navbar = () => {
       <div className="navbar">
         
         <div className="navbar-1">
+          <Link to = "/Toggle">
+          <img src={bars} alt="bars"  className=" bars nav-item nav-logo"/>
+          
+          </Link>
           <Link to="/" className="nav-item nav-logo">
             <img src={logo} alt="logo" />
           </Link>
-          <Link to="/Plans" className="nav-item nav-btn res-nav">
+          <Link to="/Plans" className="nav-item nav-btn  lo res-nav">
             Plans
           </Link>
-          <Link to="/Otp" className="nav-item nav-btn res-nav">
+          <Link to="/Otp" className="nav-item nav-btn res-nav chatbott">
             Chatbot
           </Link>
-          <a href="https://stackoverflowclonebyprashant.netlify.app/" className="nav-item nav-btn res-nav">
+          <a href="https://stackoverflowclonebyprashant.netlify.app/" className="nav-item nav-btn lo res-nav">
             Community
           </a>
-          <form>
+          <form className="sear">
             <input type="text" placeholder="Search..." />
             <img src={search} alt="search" width="18" className="search-icon" />
           </form>
         </div>
         <div className="navbar-2">
           {User === null ? (
-            <Link to="/Auth" className="nav-item nav-links ">
+            <Link to="/Auth" className="nav-item nav-links loginbut">
               Log in
             </Link>
           ) : (

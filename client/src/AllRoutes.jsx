@@ -13,6 +13,9 @@ import UserProfile from './Pages/UserProfile/UserProfile'
 import Plans from './Pages/Plans/Plans'
 import Otp from './otp'
 import Chatbot from './Chatbot'
+import Toggle from "./Pages/Toggle/Toggle"
+
+
 const AllRoutes = () => { 
   return (
    <Routes>
@@ -28,6 +31,7 @@ const AllRoutes = () => {
     <Route path = '/Users/:id' element={<UserProfile/>} />
     <Route path = '/Otp' Component ={Otp}/>
     <Route path = '/Chatbot' Component ={Chatbot}/>
+    <Route path = '/Toggle' Component ={Toggle}/>
    </Routes> 
   )
 }
