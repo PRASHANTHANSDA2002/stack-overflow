@@ -22,7 +22,7 @@ const dispatch = useDispatch()
        <Navbar/>
        <AllRoutes/>
       </Router>
-      <button className='ty'> <a href="/Otp" className='ppp'> Have Doubts Click Here!!</a></button>
+   
     </div>
   ); 
 }
