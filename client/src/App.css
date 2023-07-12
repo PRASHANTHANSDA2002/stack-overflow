@@ -18,3 +18,24 @@
       width: 100%;
     }    
   } 
+  .ty{
+    text-decoration: none; 
+    background-color: #ef8236;
+    border: none;
+    border-radius: 10px;
+    bottom: 5%;
+    cursor: pointer;
+    font-size: 1rem;
+    left: 85%;
+    padding: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    
+    
+    
+  }
+ .ppp{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+ }

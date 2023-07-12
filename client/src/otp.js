@@ -10,7 +10,7 @@ import 'react-phone-input-2/lib/style.css'
 import { auth } from "./firebase.config"
 import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth"
 import { Toaster, toast } from "react-hot-toast"
-import { Link } from "react-router-dom";
+
 
 
 const Otp = () => {
