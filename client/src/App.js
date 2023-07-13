@@ -6,6 +6,8 @@ import { useEffect } from 'react';
 import { fetchAllQuestions } from './actions/question';
 import { useDispatch  } from 'react-redux';
 import { fetchAllUsers } from './actions/users'
+import Plans from './Pages/Plans/Plans';
+
 
 function App() {
 
@@ -19,6 +21,7 @@ const dispatch = useDispatch()
   return (
     <div className="App">
       <Router>
+      
        <Navbar/>
        <AllRoutes/>
       </Router>
