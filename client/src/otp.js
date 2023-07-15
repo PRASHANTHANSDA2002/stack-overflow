@@ -48,7 +48,7 @@ function onSignup(){
      window.confirmationResult = confirmationResult;
      setLoading(false)
      setShowOTP(true)
-     toast.success('Jarvis sent you an OTP')
+     toast.success('OTP sent to your mobile number')
     })
     .catch((error) => {
       console.log(error)
@@ -86,7 +86,7 @@ function onSignup(){
    ( <div className="inner">
       <h1 className="tex">
       Hello Welcome !! <br/>
-     One Step Away to meet JARVIS </h1>
+     Enter your Phone Number to Continue </h1>
 
       {
         showOTP ?

@@ -38,7 +38,7 @@
   }
   
   .otppage{
-    background-color: #f8c66e;
+    background-color:white;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +64,7 @@
   
   .yodo{
   background-color: aliceblue;  
-  color: #efb248;
+  color: #0b0b0b;
   width: fit-content;
   text-align: center;
   padding: 4%;
@@ -94,7 +94,7 @@
   .verifybutton{
     color:rgb(0, 0, 0);
     width:100%;
-    background-color: #6feafb;
+    background-color: #eabf75;
     justify-content: center;
     padding: 5%;
     gap: 1;
