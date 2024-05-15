@@ -50,7 +50,7 @@ const Navbar = () => {
           <Link to="/Otp" className="nav-item nav-btn res-nav chatbott">
             Chatbot
           </Link>
-          <a href="https://stackoverflowclonebyprashant.netlify.app/" className="nav-item nav-btn lo res-nav">
+          <a  className="nav-item nav-btn lo res-nav">
             Community
           </a>
           <form className="sear">
