@@ -14,8 +14,8 @@ const Plans = () => {
         <div className='plans'> <img src={freeplan} alt="freeplan" className='up' style={{width:"80%"}} />
        <Link to ="/AskQuestion"><button className='button' >Continue Free</button></Link> </div>
         <div className='plans' > <img src={silverplan} className='up' alt="silverplan" style={{width:"80%"}}/>
-        <a className='opo' href="https://buy.stripe.com/test_8wMeWFc43deyg8MbIK"><button className='myButton'>Buy Now</button></a></div>
-        <div  className='plans' > <img src={goldplan} alt="goldplan" className='up' style={{width:"80%"}} /><a href="https://buy.stripe.com/test_28o5m51pp7Ue09O001"><button className='myButton'>Buy Now</button></a></div>
+        <a className='opo' ><button className='myButton'>Buy Now</button></a></div>
+        <div  className='plans' > <img src={goldplan} alt="goldplan" className='up' style={{width:"80%"}} /><a><button className='myButton'>Buy Now</button></a></div>
         </div>     
     </div>
   )
